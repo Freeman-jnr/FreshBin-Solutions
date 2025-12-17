@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshBin Solution NB - Waste Management</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+
+
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="/src/Freshbin.png" alt="FreshBin Solution NB" class="logo-img">
+                </div>
+                
+                <nav class="nav" id="nav">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="services.html" class="nav-link">Services</a>
+                    <a href="pricing.html" class="nav-link">Pricing</a>
+                    <a href="contact.html" class="nav-link">Contact</a>
+                    <a href="testimonials.html" class="nav-link">Testimonials</a>
+                </nav>
+
+                <div class="header-actions">
+                    <button class="btn btn-primary"><a href="contact.html">Book Appointment</a></button>
+                    <button class="mobile-menu-btn" id="mobileMenuBtn">
+                        <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div id="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <div class="badge">Professional Cleaning Services</div>
+                    <h1><span id="first-span">Trash Bin Trouble?</span> <span id="second-span">FreshBin Solutions</span> Has the Clean Answer.</h1>
+                    <p>Keep your waste bins sanitized, deodorized, and spotless with our eco-friendly cleaning service. Serving residential and commercial clients.</p>
+                    
+                    <div class="features-list">
+                        <div class="feature-item">
+                            <svg class="icon icon-check" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                            <span>Eco-friendly</span>
+                        </div>
+                        <div class="feature-item">
+                            <svg class="icon icon-check" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                            <span>Locally Owned</span>
+                        </div>
+                    </div>
+
+                    <div class="hero-buttons">
+                        <button class="btn btn-outline btn-lg"><a href="contact.html">Book Now</a></button>
+                        <button class="btn btn-primary btn-lg"><a href="services.html">Learn More Now</a></button>
+                    </div>
+                </div>
+
+                <div class="hero-image-wrapper">
+                    <div class="hero-image">
+                        <img src="/src/Our trash bin cleaning service takes the hassle….jpg" alt="Waste bins and recycling">
+                    </div>
+                    
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <div class="stat-value">100%</div>
+                            <div class="stat-label">Satisfaction Rate</div>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat">
+                            <div class="stat-value">500+</div>
+                            <div class="stat-label">Bins cleaned</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <div class="badge">Our Cleaning Services</div>
+                <h2>Complete Waste Management Solutions</h2>
+                <p>Professional trash bin cleaning and sanitization services for homes and businesses</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-card-image">
+                        <img src="/src/Heavy Duty Plastic Trash Bin 20L 30L 50L 80L 100L….jpg" alt="Waste bins and recycling">
+                         <div class="service-icon">
+                        <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/>
+                        </svg>
+                    </div>
+                    </div>
+                    <div class="service-content">
+                        <h3>Residential Cleaning</h3>
+                        <p>Professional cleaning for household trash and recycling bins. Keep your home fresh and sanitary.</p>
+                        <ul class="service-features">
+                            <li><svg class="icon icon-small" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Weekly or monthly service</li>
+                            <li><svg class="icon icon-small" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Curbside pickup</li>
+                            <li><svg class="icon icon-small" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> No need to be home </li>
+                        </ul>
+                        <div class="service-button">
+                            <button class="btn btn-primary"><a href="services.html">Learn More</a></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                     <div class="service-card-image">
+                        <img src="/src/GLOBAL GARBAGE MAN DAY - June 17, 2023 - National….jpg" alt="Waste bins and recycling">
+                         <div class="service-icon">
+                         <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
+                        </svg>
+                    </div>
+                    </div>
+                    
+                    <div class="service-content">
+                        <h3>Commercial Cleaning</h3>
+                        <p>Comprehensive bin cleaning for businesses, restaurants, and multi-unit properties.</p>
+                        <ul class="service-features">
+                            <li><svg class="icon icon-small" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Custom schedules </li>
+                            <li><svg class="icon icon-small" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Multiple bins </li>
+                            <li><svg class="icon icon-small" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Compliance ready </li>
+                        </ul>
+                          <div class="service-button">
+                            <button class="btn btn-primary"><a href="services.html">Learn More</a></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                     <div class="service-card-image">
+                        <img src="/src/mayor of new york announcing the city will now use….jpg" alt="Waste bins and recycling">
+                         <div class="service-icon">
+                         <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
+                        </svg>
+                    </div>
+                    </div>
+                
+                    <div class="service-content">
+                        <h3>One-Time Cleaning</h3>
+                        <p>Moving out? Special event? We offer one-time deep cleaning services.</p>
+                        <ul class="service-features">
+                            <li><svg class="icon icon-small" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Same-day available</li>
+                            <li><svg class="icon icon-small" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> No contract needed</li>
+                            <li><svg class="icon icon-small" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Full sanitization </li>
+                        </ul>
+                          <div class="service-button">
+                            <button class="btn btn-primary"><a href="services.html">Learn More</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="truck-container">
+        <div class="truck-image">
+            <img src="/src/FreshBin Truck with Vibrant Graphic Design.png" alt="Garbage truck">
+    </section>
+
+
+ <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+ <div class="about-content">
+                    <div class="badge">About Us</div>
+                    <h2>Why Choose Professional Bin Cleaning?</h2>
+                    <p>Your trash bins are one of the dirtiest places around your home or business. Regular cleaning isn't just about appearance—it's about health and safety.</p>
+                    <p>Our team understands the importance of keeping your project on schedule. That's why we offer same-day cleaning service, full sanitization, and responsive customer service.</p>
+
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                                </svg>
+                            </div>
+
+                            <div>
+                                <h4>Health & Safety</h4>
+                                <p>Eliminate harmful bacteria, viruses, and pests that breed in dirty bins</p>
+                            </div>
+                        </div>
+                        
+                        <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Eco-Friendly</h4>
+                                <p>Biodegradable cleaners and water reclamation system protect the environment.</p>
+                            </div>
+                        </div>
+
+                         <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <span class="material-symbols-outlined">relax</span>
+                            </div>
+                            <div>
+                                <h4>Convenient</h4>
+                                <p>We clean your bins on your regular trash pickup day. No extra effort needed</p>
+                            </div>
+                        </div>
+
+                         <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <span class="material-symbols-outlined">air_freshener</span>
+                            </div>
+                            <div>
+                                <h4>Odor Free</h4>
+                                <p>Professional deodorizing treatment keeps your bins smelling fresh all month</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-second-grid">
+                <div class="about-image">
+                    <img src="/src/Freshbin.png" alt="Recycling and sustainability">
+                    </div>
+                     <div class="stats-inline">
+                        <div class="stat-inline">
+                            <span class="material-symbols-outlined stat-icon">
+                            workspace_premium
+                            </span>
+                            <div class="stat-inline-value">5+</div>
+                            <div class="stat-inline-label">Years Experience</div>
+                        </div>
+                        <div class="stat-inline">
+                           <span class="material-symbols-outlined stat-icon">
+                            clock_loader_90
+                            </span>
+                            <div class="stat-inline-value">24/7</div>
+                            <div class="stat-inline-label">Support Available</div>
+                        </div>
+                        <div class="stat-inline">
+                            <span class="material-symbols-outlined stat-icon">
+                            sentiment_very_satisfied
+                            </span>
+                            <div class="stat-inline-value">1000+</div>
+                            <div class="stat-inline-label">Happy Customers</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <div class="badge">How it Works</div>
+                <h2>Simple 5-Step Process</h2>
+                <p>Our streamlined process makes trash bin cleaning effortless for you</p>
+            </div>
+
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <div class="step-icon">
+                        <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                        </svg>
+                    </div>
+                    <h3>Schedule Service</h3>
+                    <p>Choose your cleaning frequency and provide your address. We handle the rest.</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <div class="step-icon">
+                        <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"/>
+                        </svg>
+                    </div>
+                    <h3>Automated Cleaning</h3>
+                    <p>After your regular trash pickup, we arrive with our specialized cleaning truck..</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <div class="step-icon">
+                        <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/>
+                        </svg>
+                    </div>
+                    <h3>Deep Clean</h3>
+                    <p>High-pressure 200°F water removes grime, bacteria, and odors from every surface.</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">4</div>
+                    <div class="step-icon">
+                        <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                        </svg>
+                    </div>
+                    <h3>Sanitize & Deodorize</h3>
+                    <p>EPA-approved sanitizers eliminate 99.9% of bacteria, then we apply deodorizer</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">5</div>
+                    <div class="step-icon">
+                        <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                        </svg>
+                    </div>
+                    <h3>Return to Spot</h3>
+                    <p>Your bin is returned clean, dry, and fresh—ready for your next trash day.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Bins Section -->
+    <section id="bins" class="bins">
+        <div class="container">
+            <div class="section-header">
+                <div class="badge">Our Prices</div>
+                <h2>Ready to Smell the Difference? Book your Bin Clean in Minutes</h2>
+                <p>Affordable trash bin cleaning services with no hidden fees. Commercial pricing available upon request!</p>
+            </div>
+
+            <div class="bins-grid">
+                <div class="bin-card">
+                    <div class="bin-size">One-Time Cleaning</div>
+                    <div class="bin-content">
+                        <div class="bin-price">$35<span><h5>Per Bin</h5><p>Each add. (+15)</p></span></div>
+                       <ul class="service-features">
+                            <li><svg class="icon icon-small" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Single bin cleaning</li>
+                            <li><svg class="icon icon-small" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> High-Pressure Wash</li>
+                            <li><svg class="icon icon-small" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>Sanitization Treatment</li>
+                            <li><svg class="icon icon-small" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>Deodorizer applied</li>
+                            <li><svg class="icon icon-small" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>Same-day available</li>
+                            <li><svg class="icon icon-small" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>10% discount on first wash</li>
+                        </ul>
+                        <button class="btn btn-outline btn-full price-btn"><a href="contact.html">Book Us Today</a></button>
+                    </div>
+                </div>
+
+                <div class="bin-card" id="special-card">
+                    <div class="bin-size">Bi-Weekly Cleaning</div>
+                    <div class="bin-content">
+                        <div class="bin-price">$30<span><h5>Per Bin</h5><p>Each add. (+15)</p></span></div>
+                       <ul class="service-features">
+                            <li><svg class="icon icon-small" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> High-Pressure Wash</li>
+                            <li><svg class="icon icon-small" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>Sanitization Treatment</li>
+                            <li><svg class="icon icon-small" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>Deodorizer applied</li>
+                            <li><svg class="icon icon-small" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>Curbside service</li>
+                            <li><svg class="icon icon-small" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>10% discount on first wash</li>
+                        </ul>
+                        <button class="btn btn-outline btn-full price-btn"><a href="contact.html">Book Us Today</a></button>
+                    </div>
+                </div>
+
+                <div class="bin-card">
+                    <div class="bin-size">Monthly Cleaning</div>
+                    <div class="bin-content">
+                        <div class="bin-price">$25<span><h5>Per Bin</h5><p>Each add. (+15)</p></span></div>
+                       <ul class="service-features">
+                            <li><svg class="icon icon-small" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> High-pressure wash</li>
+                            <li><svg class="icon icon-small" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Sanitization treatment</li>
+                            <li><svg class="icon icon-small" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>Deodorizer applied</li>
+                            <li><svg class="icon icon-small" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>Priority scheduling</li>
+                            <li><svg class="icon icon-small" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>Curbside service</li>
+                            <li><svg class="icon icon-small" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>10% discount on first wash</li>
+                        </ul>
+                        <button class="btn btn-outline btn-full price-btn"><a href="contact.html">Book Us Today</a></button>
+                    </div>
+                </div>
+
+            <div class="bin-note">
+                <p><strong>Note:</strong> Contact us for custom quotes based on number of bins and frequency.</p>
+            </div>
+        </div>
+    </section>
+
+<section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <div class="badge">Testimonials</div>
+                <h2>What Our Customers Are Saying</h2>
+                <p>Real reviews from satisfied clients who love our trash bin cleaning service</p>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">
+                    <span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span>
+                    </div>
+                    <p>"<i>I never realized how dirty my trash bins were until FreshBin cleaned them! The difference is incredible. No more awful smells in my garage. Highly recommend!"</i></p>
+                    <div class="testimonial-author">- Samuel .O</div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">
+                    <span class="material-symbols-outlined">star</span><span class="material-symbols-outlined ">star</span><span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span>
+                    </div>
+                    <p>"<i>As a restaurant owner, keeping our dumpsters clean is essential. FreshBin Solution does an amazing job and their service is so convenient. Worth every penny.</i>"</p>
+                    <div class="testimonial-author">- Theophilus T.</div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">
+                    <span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span>
+                    </div>
+                    <p>"<i>I was skeptical at first, but after one cleaning I was sold. They eliminated the maggots and smell problem we had every summer. Great service!</i>"</p>
+                    <div class="testimonial-author">- Eniola O.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <div class="badge">Contact Us</div>
+                <h2>Ready to experience a change?</h2>
+                <p>Ready to experience the FreshBin difference? Contact us today for a free, no-obligation quote.</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm" action="https://formsubmit.co/demiladeishola08@gmail.com" method="POST">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>First Name</label>
+                                <input type="text" placeholder="First Name" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Last Name</label>
+                                <input type="text" placeholder="Last Name" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Email</label>
+                                <input type="email" placeholder="mail@example.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Phone</label>
+                                <input type="tel" placeholder="(506) 555-0000" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Service Type</label>
+                                <select required>
+                                    <option value="">Book your preferred schedule</option>
+                                    <option value="10">One-Time Cleaning</option>
+                                    <option value="20">Bi-Weekly Cleaning</option>
+                                    <option value="30">Monthly Cleaning</option>
+                                    <option value="custom">Not Sure - Need Help</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Number of Bins</label>
+                                <input type="number" placeholder="Specify the number of bins" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Additional Information</label>
+                            <textarea placeholder="Tell us about your needs..." rows="5" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-lg btn-full">Request Wash</button>
+                    </form>
+                </div>
+
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-card-icon">
+                            <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>(506-470-7001)</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-card-icon">
+                            <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>freshbinsolutionnb@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-card-icon">
+                            <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>Service Area</h4>
+                            <p>Fredericton, NB, Canada, E3B 2B4<br>Fredericton, New Brunswick<br>and surrounding areas</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-card-icon">
+                            <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>Hours</h4>
+                            <p>Mon-Fri: 7am - 6pm<br>Sat: 8am - 4pm<br>Sun: Closed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <img src="/src/Freshbin.png" alt="FreshBin Solution NB" class="logo-img">
+                    </div>
+                    <p>Professional trash bin cleaning and sanitization services.</p>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li>Residential Cleaning</li>
+                        <li>Commercial Cleaning</li>
+                        <li>One-Time Cleaning</li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="https://facebook.com/freshbinsolutionnb" class="social-link">
+                            <svg class="icon" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link">
+                            <svg class="icon" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                            </svg>
+                        </a>
+                        <a href="https://instagram.com/freshbinsolutionnb" class="social-link">
+                            <svg class="icon" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link">
+                            <svg class="icon" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 FreshBin Solution NB. All rights reserved.<br> Developed by Ishola Oluwademilade Festus</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

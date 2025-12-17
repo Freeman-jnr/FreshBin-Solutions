@@ -1,0 +1,42 @@
+.ff-land {
+  background-color: black;
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+  color: white;
+}
+
+.ff-land::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url('/src/FreshBin Truck with Vibrant Graphic Design.png');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.65;
+  transition: all 0.5s ease;
+  z-index: 1;
+}
+
+.ff-land:hover::before {
+  filter: blur(5px);
+  opacity: 0.5;
+}
+
+.first-land {
+  position: relative;
+  z-index: 2;
+  opacity: 1;
+  padding: 5rem;
+  height: fit-content;
+  border-radius: 15px;
+}
+
+.sub-lead {
+    color: white;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
