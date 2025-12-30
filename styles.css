@@ -161,6 +161,13 @@ a {
     text-decoration: none;
 }
 
+.nav-link.active {
+  color: #41AB59 !important;
+  position: relative;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
 .btn a {
     color: white;
 }
